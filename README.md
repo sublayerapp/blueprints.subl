@@ -17,7 +17,7 @@ future as bases to generate new code off of.
 
 ## Usage
 
-Adds two commands to your editor:
+Command Palette [command+shift+p] will now have:
 
 `Blueprint: Submit Blueprint` - This command takes whatever code you
 have highlighted and submits it to your locally running Sublayer Blueprints
@@ -27,6 +27,17 @@ server to save it as a blueprint for future use.
 highlighted and sends it to your locally running Sublayer Blueprints server and
 replaces it with a variation based on a blueprint you have stored in the past.
 
+feel free to add whichever keybindings you would like in Sublime Text > Settings... > Key Bindings
+```
+  {
+    "keys": ["ctrl+shift+s"],
+    "command": "sublayer_blueprints_submit_blueprint"
+  },
+  {
+    "keys": ["ctrl+shift+g"],
+    "command": "sublayer_blueprints_replace_selection"
+  }
+```
 ## Requirements
 
 A [Sublayer Blueprints](https://github.com/sublayerapp/blueprints) server running locally on port 3000
