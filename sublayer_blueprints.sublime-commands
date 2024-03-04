@@ -1,0 +1,10 @@
+[
+    {
+        "caption": "Blueprint: Submit Blueprint",
+        "command": "sublayer_blueprints_submit_blueprint"
+    },
+    {
+        "caption": "Blueprint: Replace Selection",
+        "command": "sublayer_blueprints_replace_selection"
+    }
+]
