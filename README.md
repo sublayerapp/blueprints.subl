@@ -8,7 +8,9 @@ blueprints using descriptions of what you're working on.
 
 Navigate to your sublime texts packages folder (Sublime Text > Settings... > Browse Packages)
 
-Run `git clone git@github.com:sublayerapp/blueprints.subl.git`
+Run `git clone git@github.com:sublayerapp/blueprints_subl.git`
+
+Restart Sublime Text
 
 ## Features
 
