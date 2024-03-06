@@ -24,6 +24,6 @@ class SublayerBlueprintsReplaceSelectionCommand(sublime_plugin.TextCommand):
         try:
             response = requests.post(url, json=json_data)
             response.raise_for_status()
-            self.view.replace(edit, self.view.sel()[0], response.data["result"])
+            self.view.replace(edit, self.view.sel()[0], response.json()["result"])
         except requests.exceptions.RequestException as e:
             sublime.error_message(sublime.error_message("Error submitting blueprint: {}".format(e)))
